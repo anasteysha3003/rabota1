@@ -16,18 +16,31 @@
 //Console.WriteLine($"P = {P:F2}");
 
 //Лабораторная работа 1.2
+//try
+//{
+//    Console.Write("Введите число сторон n:");
+//    double n = double.Parse(Console.ReadLine());
+//    Console.Write("Введите длинну стороны а:");
+//    double a = double.Parse(Console.ReadLine());
+//    double R = a / (2 * Math.Sin(Math.PI / n));
+//    double r = a / (Math.Tan(Math.PI / n));
+//    Console.WriteLine($"R = {R:f2}");
+//    Console.WriteLine($"r = {r:f2}");
+//}
+//catch(Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+//Лабораторная работа 1.3
 try
 {
-    Console.Write("Введите число сторон n:");
-    double n = double.Parse(Console.ReadLine());
-    Console.Write("Введите длинну стороны а:");
-    double a = double.Parse(Console.ReadLine());
-    double R = a / (2 * Math.Sin(Math.PI / n));
-    double r = a / (Math.Tan(Math.PI / n));
-    Console.WriteLine($"R = {R:f2}");
-    Console.WriteLine($"r = {r:f2}");
+    Console.Write("Введите число n, при 1<=n<=999: ");
+    int n = int.Parse(Console.ReadLine());
+    int x = (n % 10) * 100 + (n / 10);
+    Console.WriteLine($"Начальное число х: {x}");
 }
-catch(Exception ex)
+catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
