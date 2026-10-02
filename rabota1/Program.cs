@@ -111,3 +111,99 @@
 //{
 //    Console.WriteLine(ex.Message);
 //}
+
+//try
+//{
+//    Console.Write("Введите х:");
+//    double x = double.Parse(Console.ReadLine());
+//    if (x < 4) Console.WriteLine("Первая область");
+//    else Console.WriteLine("Вторая область");
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+//try
+//{
+//    Console.Write("Введите х:");
+//    double x = double.Parse(Console.ReadLine());
+//    Console.Write("Введите у:");
+//    double y = double.Parse(Console.ReadLine());
+//    double min;
+//    if (x > y)
+//    {
+//        max = x;
+//        min = y;
+//    }
+//    else
+//    {
+//        max = y;
+//        min = x;
+//    }
+//    Console.WriteLine($"max = {max}, min = {min}");
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+//try
+//{
+//    Console.Write("Введите a:");
+//    double a = double.Parse(Console.ReadLine());
+//    Console.Write("Введите b");
+//    double b = double.Parse(Console.ReadLine());
+//    Console.Write("Введите с");
+//    double c = double.Parse(Console.ReadLine());
+//    if ((a < b) && (b < c)) Console.WriteLine($"{a}<{b}<{c}");
+//    else Console.WriteLine("Не выполняется");
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+
+//try
+//{
+//    Console.Write("Введите трехзначное число:");
+//    int m = int.Parse(Console.ReadLine());
+//    int a = m % 10;
+//    int b = m % 10 / 10;
+//    int c = m / 100;
+//    if (((a == 4) || (b == 4) || (c == 4)) || ((a == 7 || b == 7 || c == 7)))
+//        Console.WriteLine("да");
+//    else Console.WriteLine("нет");
+//    if (((a == 3) || (b == 3) || (c == 3)) || ((a == 6) || (b == 6) || (c == 6)) || ((a == 9) || (b == 9) || (c == 9))) Console.WriteLine("да");
+//    else Console.WriteLine("нет");
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
+
+
+
+
+
+//Лабораторная работа 2.2
+try
+{
+    Console.Write("Введите двухзначное число m:");
+    int m = int.Parse(Console.ReadLine());
+    int e = m % 10;
+    int d = m / 10;
+    Console.Write("a)");
+    if ((e == 3) || (d == 3) && (e == 7) || (d == 7))
+        Console.WriteLine("да, входят");
+    else Console.WriteLine("нет, не входят");
+    Console.Write("б)");
+    if ((((e == 4) || (d == 4)) && ((e == 8) || (d == 8))) || ((e == 9) || (d == 9)))
+        Console.WriteLine("да, вхадят");
+    else Console.WriteLine("нет, не входят");
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
