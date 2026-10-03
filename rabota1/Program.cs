@@ -183,7 +183,134 @@
 //    Console.WriteLine(ex.Message);
 //}
 
+//Console.Write("Введите номер дня недели:");
+//int n = int.Parse(Console.ReadLine());
+//switch(n)
+//{
+//    case 1:
+//        Console.WriteLine("Понедельник");
+//        break;
+//    case 2:
+//        Console.WriteLine("Вторник");
+//        break;
+//    case 3:
+//        Console.WriteLine("Среда");
+//        break;
+//    case 4:
+//        Console.WriteLine("Четверг");
+//        break;
+//    case 5:
+//        Console.WriteLine("Пятница");
+//        break;
+//    case 6:
+//        Console.WriteLine("Суббота");
+//        break;
+//    case 7:
+//        Console.WriteLine("Воскреснье");
+//        break;
+//    default:
+//        Console.WriteLine("Такого дня недели нет:");
+//        break;
+//}
 
+//try
+//{
+//    Console.Write("Введите номер месяца: ");
+//    int n = int.Parse(Console.ReadLine());
+//    switch (n)
+//    {
+//        case 12: case 1: case 2:
+//            Console.WriteLine("Зима");
+//            break;
+//        case 3: case 4: case 5:
+//            Console.WriteLine("Весна");
+//            break;
+//        case 6: case 7: case 8:
+//            Console.WriteLine("Лето");
+//            break;
+//        case 9: case 10: case 11:
+//            Console.WriteLine("Осень");
+//            break;
+//        default: 
+//            Console.WriteLine("Нет такого месяца");
+//            break;
+//    }
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
 
+//Console.Write("Введите номер карты:");
+//int n = int.Parse(Console.ReadLine());
+//Console.Write("Введите номер масти этой карты:");
+//int m = int.Parse(Console.ReadLine());
+//switch (n)
+//{
+//    case 6: case 7: case 8: case 9: case 10:
+//        Console.WriteLine(n);
+//        break;
+//    case 11:
+//        Console.WriteLine("Валет");
+//        break;
+//    case 12:
+//        Console.WriteLine("Дама");
+//        break;
+//    case 13:
+//        Console.WriteLine("Король");
+//        break;
+//    case 14:
+//        Console.WriteLine("Туз");
+//        break;
+//    default: 
+//        Console.WriteLine("нет такой карты");
+//        break;
+//}
+//switch (m)
+//{
+//    case 1:
+//        Console.WriteLine("черви");
+//        break;
+//    case 2:
+//        Console.WriteLine("буби");
+//        break;
+//    case 3:
+//        Console.WriteLine("крести");
+//        break;
+//    case 4:
+//        Console.WriteLine("вини или пики");
+//        break;
+//    default: 
+//        Console.WriteLine("нет такой масти");
+//        break;
+//}
 
-
+//Console.Write("Введите число:");
+//int n = int.Parse(Console.ReadLine());
+//int e = n % 100;
+//int d = n % 10;
+//if ((e >= 11) && (e <= 14)) Console.WriteLine($"{n} рублей");
+//else {
+//    switch (d)
+//    {
+//        case 1:
+//            Console.WriteLine("рубль");
+//            break;
+//        case 2:
+//        case 3:
+//        case 4:
+//            Console.WriteLine("рубля");
+//            break;
+//        case 5:
+//        case 6:
+//        case 7:
+//        case 8:
+//        case 9:
+//        case 0:
+//            Console.WriteLine($"{n}рублей");
+//            break;
+//        default:
+//            Console.WriteLine($"{n}не бывает");
+//            break;
+//    }
+//}
