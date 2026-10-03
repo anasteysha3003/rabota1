@@ -53,6 +53,7 @@ try
                 else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
             }
             break;
+
     }
 }
 catch (Exception ex)
