@@ -20,43 +20,42 @@
 //}
 
 //Лабораторная работа 2.3
-try
-{
-    Console.Write("введите номер задания:");
-    int k = int.Parse(Console.ReadLine());
-    Console.Write("введите переменную x");
-    double x = double.Parse(Console.ReadLine());
-    double y=0;
-    switch (k)
-    {
-        case 1:
-            {
-                double b = -1.6, m = 0.9, n = -1.4;
-                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
-                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
-                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
-            }
-            break;
-        case 2:
-            {
-                double b = 4.5, m = -2, n = 2.2;
-                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
-                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
-                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
-            }
-            break;
-        case 3:
-            {
-                double b = -4.5, m = 0.5, n = -1.5;
-                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
-                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
-                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
-            }
-            break;
-
-    }
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
+//try
+//{
+//    Console.Write("введите номер задания:");
+//    int k = int.Parse(Console.ReadLine());
+//    Console.Write("введите переменную x");
+//    double x = double.Parse(Console.ReadLine());
+//    double y=0;
+//    switch (k)
+//    {
+//        case 1:
+//            {
+//                double b = -1.6, m = 0.9, n = -1.4;
+//                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
+//                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
+//                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
+//            }
+//            break;
+//        case 2:
+//            {
+//                double b = 4.5, m = -2, n = 2.2;
+//                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
+//                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
+//                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
+//            }
+//            break;
+//        case 3:
+//            {
+//                double b = -4.5, m = 0.5, n = -1.5;
+//                if (Math.Abs(b * m) > x * x) Console.WriteLine($" {y} = {Math.Sin(b * m + Math.Cos(n * x))}");
+//                else if (Math.Abs(b * m) < x * x) Console.WriteLine($"{y} = {Math.Cos(b * m - Math.Sin(x))}");
+//                else if (Math.Abs(b * m) == x * x) Console.WriteLine($"{y} = {Math.Sqrt(Math.Pow(Math.E, (Math.Abs(Math.Cos(x)))) + Math.Sqrt(Math.Abs(b * m * x)))}");
+//            }
+//            break;
+//    }
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine(ex.Message);
+//}
